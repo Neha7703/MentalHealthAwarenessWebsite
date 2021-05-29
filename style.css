@@ -1,0 +1,2321 @@
+* {
+    color: 	#000000;
+    font-family: 'Oswald', sans-serif;
+}
+
+#covid19-awareness {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3f3d3df8;
+}
+#covid19-awareness {
+    background:url("https://cdu-niedersachsen.de/wp-content/uploads/2020/03/AdobeStock_319268668-scaled.jpeg");
+    background-size: 200px;
+}
+#covid19-awareness, #covid19-awareness a, .fa-info-circle {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+}
+
+#covid19-awareness a:hover {
+    text-decoration: none;
+}
+
+.fa-angle-right {
+    margin-left: 10px;
+    color: rgb(61, 204, 61);
+    font-size: inherit;
+}
+
+#covid19-awareness .fa-angle-right {
+    color: #ffffff; 
+    margin-left: 5px;
+}
+
+.fa-info-circle {
+    margin-right: 10px; 
+}
+
+#custom-nav-css {
+    border-bottom: 1px solid #3f3d3df8;
+}
+
+.navbar-brand img {
+    height: 33px;
+    width: 33px;
+}
+
+.mha-nav { 
+    color: #3f3d3df8 !important; 
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.mha-nav:hover, .mha-nav:hover span {
+    color: rgb(61, 204, 61) !important; 
+} 
+
+.mha-active, .mha-active span {
+    color: rgb(61, 204, 61) !important; 
+}
+
+a.mha-active:hover, a.mha-active:hover span { 
+    color: rgb(61, 204, 61) !important;
+}
+
+
+#mha-navbar-right-space {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mha-link {
+    text-decoration: none;
+}
+
+.mha-get-started {
+    margin-top: 62px;
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+.get-started-button {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: rgb(61, 204, 61);
+    border: 1px solid #3f3d3df8;
+    border-radius: 8px;
+    width: 100%;
+    padding: 13px 0px; 
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.get-started-button:hover {
+    background-color: rgb(79, 10, 189);
+    font-weight: 500;
+}
+
+.mha-get-started a:first-child {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mha-get-started a:hover {
+    text-decoration: none;
+    color: rgb(79, 10, 189);
+}
+
+.start-spreading-awareness {
+    color: rgb(61, 204, 61);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.community-image {
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 95%;
+    height: 50%;
+    
+}
+
+.mha-heading {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.mha-paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.black-background { 
+    height: 75px;
+    background-color: #3f3d3df8;
+    width: 100%;
+}
+
+footer {
+    background-color: #3f3d3df8;
+}
+
+.top-footer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f3d3df8;
+}
+
+.top-footer {
+    border-top: 1px solid #3f3d3df8; 
+    border-bottom: 1px solid #3f3d3df8;
+    padding-bottom: 30px;
+}
+
+.top-center {
+    background-color: #3f3d3df8;
+    margin-left: 40%;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+#flag {
+    background-color: #3f3d3df8;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+
+.top-center {
+    margin-top: -30px; 
+    background-color: #3f3d3df8;
+}
+
+.top-center i {
+    margin-right: 10px; 
+    margin-left: 10px;
+    background-color: #3f3d3df8;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+/* For extra small devices (phone) */
+@media only screen and (max-width:717px) {
+    #custom-navbar-brand-mobile-responsiveness { 
+        font-size: 16px; 
+    }
+    #custom-navbar-brand-mobile-responsiveness img { 
+        height: 28px;
+        width: 28px;
+    }
+    .mha-nav {
+        font-size: 16px;
+    }
+    .fa-angle-right {
+        margin-left: 5px; 
+    }
+    .black-background {
+        height: 50px;
+    }
+    
+    .top-center i {
+        font-size: 14px;
+    }
+
+}
+
+/* For small devices (Tablets and landscape mode in phones) */
+@media only screen and (min-width:718px) and (max-width:992px) {
+    .fa-angle-right {
+        margin-left: 8px; 
+    }
+    #covid19-awareness .fa-angle-right {
+        margin-left: 5px;
+    }
+    .black-background {
+        height: 50px; 
+    }
+    
+    .top-center i {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (min-width: 1824px) {
+    .top-footer {
+        width: 75%; 
+    }
+}
+
+.text {
+    font-size: 62px;
+    margin-top: 62px;
+    margin-bottom: 28px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none; 
+}
+
+.text div {
+    margin-bottom: 40px;
+}
+
+.mha-underline {
+    font-size: 70px;
+    border-bottom: 3px solid #3f3d3df8;
+}
+
+
+.text a {
+    font-size: 50px;
+    font-family: 'Stint Ultra Condensed', cursive;
+    color: rgb(61, 204, 61);
+}
+
+.text a:hover {
+    color: rgb(79, 10, 189);
+    text-decoration: none;
+}
+
+.image-home {
+    margin-top: 200px;
+    background-color: #E5EBED;
+    width: 98%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;     
+}
+
+.image img { 
+    margin-top: 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 5%;
+    border: 1px solid #ffffff;
+}
+
+.content {
+    padding-top: 50px;
+    background-color: #E5EBED;
+    text-align: center;
+}
+
+.content h1, #message-summary {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Stint Ultra Condensed', cursive;
+    color: #000000;
+    background-color:#E5EBED;
+}
+
+.content h1 {
+    font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#message-summary {
+    font-size: 26px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#callout-image {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f3d3df8;
+    color: rgb(61, 204, 61);
+    padding-bottom: 96px;
+    margin-bottom: 128px;
+}
+
+.content a:hover {
+    text-decoration: none;
+}
+
+.depression-home, .anxiety-home {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.depression-home, .anxiety-home {
+    padding-bottom: 150px;
+}
+
+.depression-image, .anxiety-image {
+    max-width: 50%;
+    position: relative;
+}
+
+.depression-image {
+    float: left;
+    margin-top: 100px;
+}
+
+.anxiety-image {
+    float: right;
+    padding-left: 50px;
+    width: 480px;
+}
+
+#depressed-man, #anxious-woman {
+    width: 100%;
+    position: relative;
+    border-radius: 2%;
+    border: 4px solid #3f3d3df8;
+}
+
+.depression-text, .anxiety-text {
+    max-width: 50%;
+}
+
+.depression-text {
+    margin-top: 100px;
+    padding-left: 80px;
+    float: right;
+}
+
+.anxiety-text {
+    padding-left: 10px;
+    padding-top: 20px;
+    float: left;
+}
+
+.depression-text h1, .anxiety-text h1 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 28px;
+    
+    color: blue;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.depression-text>p, .anxiety-text>p {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-weight: 400;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    color: #3f3d3df8;
+}
+
+.depression-text a, .anxiety-text a {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+
+.depression-text a p, .anxiety-text a p {
+    color: rgb(61, 204, 61);
+}
+
+.depression-text a:hover, .anxiety-text a:hover {
+    text-decoration: none;
+}
+
+.mental-health-awareness-newsletter-home {
+    margin-top: 70px;
+    background-color: #E5EBED;
+    margin-bottom: 20px;
+}
+
+.newsletter-callout {
+    background-color: #E5EBED;
+    padding-top: 64px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 64px;
+}
+
+.newsletter-callout h1, .newsletter-callout p {
+    background-color: #E5EBED;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter-callout h1 {
+    font-size: 28px;
+    padding: 0 0 14px;
+    font-weight: 600;
+}
+
+.newsletter-callout p {
+    font-size: 20px;
+    padding-bottom: 10px; 
+    width: 62%;
+}
+
+.newsletter-form {
+    background-color: #E5EBED;
+    padding-bottom: 64px;
+}
+
+.newsletter-form form {
+    background-color: #E5EBED;
+    padding-bottom: 30px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter-form form label {
+    display: none;
+}
+
+.newsletter-form form input[type=email] {
+    background-color: #ffffff;
+    text-align: left;
+    width: 75%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #3f3d3df8;
+    border-radius: 2%;
+}
+
+textarea:focus, input:focus{ 
+    outline: none;
+} 
+
+.newsletter-form form input[type=submit] {
+    font-size: 16px;
+    background-color: rgb(61, 204, 61);
+    color: #ffffff;
+    font-weight: 500;
+    float: right;
+    padding: 10px 20px;
+    height: 50px;
+    border: 1px solid #3f3d3df8;
+    border-radius: 8px;
+}
+
+.newsletter-form form input[type=submit]:hover {
+    background-color: rgb(79, 10, 189);
+}
+
+
+/* For extra small devices (phones) */
+@media only screen and (max-width:717px) {
+    .text {
+        font-size: 38px;
+    }
+    .mha-get-started a:first-child {
+        width: 40%;
+    }
+    .content h1 {
+        font-size: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    #message-summary {
+        font-size: 20px;
+    }
+    #callout-image {
+        font-size: 24px;
+        margin-bottom: 62px;
+    }
+    .depression-home, .anxiety-home {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .depression-home, .anxiety-home {
+        padding-bottom: 100px;
+    }
+    
+    .depression-image, .anxiety-image {
+        max-width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .anxiety-image {
+        padding-left: 0px;
+    }
+    .depression-text, .anxiety-text {
+        max-width: 100%;
+        float: none;
+        padding-left: 30px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    .depression-text h1, .anxiety-text h1 {
+        text-align: left;
+        font-size: 22px;
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 80%;
+    }
+    .depression-text>p, .anxiety-text>p {
+        text-align: left;
+        font-size: 16px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 80%;
+    }
+    .depression-text a, .anxiety-text a {
+        text-align: left;
+        font-size: 16px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .mental-health-awareness-newsletter-home {
+        margin-top: 0px;
+    }
+    .newsletter-callout {
+        padding-bottom: 30px;
+    }
+    .newsletter-callout h1 {
+        font-size: 22px;
+        width: 75%;
+    }
+    .newsletter-callout p {
+        font-size: 16px;
+        width: 80%;
+    }
+    .newsletter-form {
+        padding-bottom: 30px;
+    }
+    .newsletter-form form {
+        width: 100%;
+        text-align: center;
+    }
+    .newsletter-form form input[type=email] {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+    }
+    .newsletter-form form input[type=submit] {
+        float: none;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+    
+}
+
+/* For small devices (Tablets and landscape phones) */
+@media only screen and (min-width:718px) and (max-width:992px) {
+    .text {
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .mha-get-started {
+        margin-bottom: 0px;
+    }
+    .mha-get-started a:first-child {
+        width: 25%;
+    }
+    .image-home {
+        margin-top: 80px;
+    }
+    .content {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    .content h1 {
+        font-size: 40px;
+    }
+    #message-summary {
+        font-size: 24px;
+    }
+    #callout-image {
+        padding-top: 20px;
+        font-size: 26px;
+    }
+    .mental-health-more-information-home {
+        margin-top: -40px;
+    }
+    .depression-home, .anxiety-home {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 80px;
+        text-align: center;
+        width: 100%;
+    }
+    .depression-image, .anxiety-image {
+        max-width: 85%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .anxiety-image {
+        padding-left: 0px;
+    }
+    .depression-text, .anxiety-text {
+        float: none;
+        max-width: 900%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+    .depression-text h1, .anxiety-text h1 {
+        text-align: center;
+        font-size: 24px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .depression-text>p, .anxiety-text>p {
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 67%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .depression-text a, .anxiety-text a {
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mental-health-awareness-newsletter-home {
+        margin-top: 0px;
+    }
+    .newsletter-callout {
+        padding-bottom: 10px;
+    }
+    .newsletter-callout h1 {
+        font-size: 24px;
+    }
+    .newsletter-callout p {
+        font-size: 18px;
+    }
+    .newsletter-form {
+        padding-bottom: 30px;
+    }
+    .newsletter-form form {
+        width: 100%;
+        text-align: center;
+    }
+    .newsletter-form form input[type=email] {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: 70%;
+        display: block;
+    }
+    .newsletter-form form input[type=submit] {
+        float: none;
+        margin-top: 40px;
+        width: 20%;
+    }
+
+}
+
+/* For medium devices (Large tablets and small laptops) */
+@media only screen and (min-width:993px) and (max-width:1310px) { 
+    .depression-home, .anxiety-home, .-home {
+        width: 90%;
+    }
+}
+
+/* For large devices (Desktops and laptops) */
+@media only screen and (min-width: 1824px) {
+    .mha-get-started a:first-child {
+        width: 10%;
+    }
+    .image img {
+        width: 50%; 
+    }
+    .content h1 { 
+        padding-left: 250px;
+        padding-right: 250px;
+    } 
+    .depression-home, .anxiety-home, .-home {
+        width: 50%;
+    }
+    .depression-home, .anxiety-home {
+        padding-bottom: 200px;
+    }
+    .newsletter {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+        
+}
+
+/* Styling for about.html*/
+
+#about-title {
+    background-image: url("https://cdn.wallpapersafari.com/88/76/g4wGuk.jpg");
+}
+
+#about-title div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 62px;
+    padding-top: 62px;
+    padding-bottom: 100px;
+    width: 75%;
+    color: white;
+}
+
+.about-statistics {
+    background-color: #ffffff;
+}
+
+.bullet {
+    font-size:18px;
+}
+
+.about-statistics .statistics {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+.about-statistics .statistics div {
+    padding-bottom: 50px;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.about-statistics .statistics div span {
+    color: rgb(61, 204, 61);
+}
+
+.about-statistics .statistics div ul li{
+    font-size: 20px;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.about-call-to-action {
+    background-color: rgb(61, 204, 61);
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.textual-info {
+    padding-top: 40px;
+    background-color: rgb(61, 204, 61);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textual-info a p:hover {
+    color: blue;
+}
+.textual-info h1, .textual-info a p {
+    background-color: rgb(61, 204, 61);
+    text-align: center;
+}
+
+.textual-info h1 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 62px;
+    padding-bottom: 20px;
+    color: #3f3d3df8;
+}
+
+.textual-info p {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.textual-info a p {
+    margin-top: 62px;
+    margin-bottom: 62px;
+    text-decoration: none;
+}
+
+.textual-info a:hover {
+    text-decoration: none;
+}
+
+.textual-info .fa-angle-right {
+    color: #ffffff;
+}
+
+.about-call-to-action .mha-get-started {
+    padding-bottom: 186px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.about-call-to-action .mha-get-started a:hover {
+    color: blue; 
+}
+
+.about-call-to-action .get-started-button {
+    color: blue;
+    background-color: yellow;
+    border: 2px solid #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: bold;
+    margin-bottom: 60px;
+}
+
+.about-call-to-action .get-started-button:hover {
+    background-color: blue;
+    border-color:yellow;
+    color: yellow;
+    font-weight: 600; 
+}
+
+.about-call-to-action .start-spreading-awareness, .about-call-to-action .start-spreading-awareness:hover {
+    color: yellow;
+    text-decoration: none;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 30px; 
+    font-weight: 600;
+}
+
+.angle-color .fa-angle-right {
+    color: yellow; 
+}
+
+/* For extra small devices (phones) */
+@media only screen and (max-width:717px) {
+    .about-statistics .statistics {
+        font-size: 32px;
+        padding-top: 62px;
+    }
+    .about-statistics .statistics div {
+        padding-bottom: 96px; 
+    }
+    .about-call-to-action {
+        margin-top: 0px;
+    }
+    .textual-info {
+        padding-top: 62px;
+        width: 70%;
+    }
+    .textual-info h1 {
+        padding-top: 34px; 
+        font-size: 32px;
+    }
+    .textual-info p {
+        font-size: 20px;
+    }
+    .textual-info a p {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .textual-info .fa-angle-right {
+        margin-left: 5px; 
+    }
+    .about-call-to-action .mha-get-started {
+        padding-bottom: 62px;
+    }
+    .about-call-to-action .get-started-button {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+    .about-call-to-action .start-spreading-awareness, .about-call-to-action .start-spreading-awareness:hover {
+        font-size: 20px;
+    }
+}
+
+/* For small devices (Tablets and landscape phones) */
+@media only screen and (min-width:718px) and (max-width: 992px) {
+    .about-statistics .statistics {
+        font-size: 45px;
+        padding-top: 62px;
+    }
+    .about-statistics .statistics:first-child {
+        padding-top: 45px;
+    }
+    .about-statistics .statistics div {
+        padding-bottom: 135px;  
+    }
+    .about-call-to-action {
+        margin-top: 0px;
+    }
+    .textual-info {
+        padding-top: 65px;
+        width: 60%; 
+    }
+    .textual-info h1 {
+        padding-top: 70px; 
+        font-size: 45px;
+    }
+    .textual-info p {
+        font-size: 24px;
+    }
+    .textual-info a p {
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .about-call-to-action .mha-get-started {
+        padding-bottom: 45px;
+    }
+    .about-call-to-action .get-started-button {
+        font-size: 18px;
+        margin-bottom: 45px;
+    }
+    .about-call-to-action .start-spreading-awareness, .about-call-to-action .start-spreading-awareness:hover {
+        font-size: 24px;
+    }
+}
+
+/* For large devices (Large desktops and laptops) */
+@media only screen and (min-width: 1824px) {
+    .about-statistics .statistics {
+        width: 50%;
+    }
+    .textual-info {
+        padding-top: 62px;
+        width: 35%;
+    }
+    .about-call-to-action .mha-get-started {
+        padding-bottom: 62px;
+    }
+}
+
+
+/* Styling for help.html */
+
+#help-yourself-title {
+    background-image: url("https://cdn.wallpapersafari.com/88/76/g4wGuk.jpg");
+}
+
+#help-yourself-title div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 62px;
+    padding-top: 62px;
+    padding-bottom: 100px;
+    width: 75%;
+    color: white;
+}
+
+ .main-header {
+    background-color: #3f2bf1f3;
+    text-align: center;
+    color: yellow;
+    
+}
+#help-yourself-looking-after-yourself, .looking-after-description {
+    background-color:rgb(163, 233, 122);
+
+}
+#help-yourself-looking-after-yourself {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.main-header {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.looking-after-tip {
+    font-size: 30px;
+    margin-left: 70px ;
+    margin-top: 100px;
+    margin-bottom: 32px;
+    font-style: bold;
+    font-family: 'Stint Ultra Condensed', cursive;
+    color: blue;
+    box-shadow: yellow;
+    width:40%;
+}
+
+.looking-after-description {
+    font-size: 25px;
+    font-weight: 500;
+    width: 30%;
+    font-family: 'Stint Ultra Condensed', cursive;
+    margin-left: 90px;
+    display: inline;
+    float: left;
+    padding-bottom: 45px;
+}
+
+.contact-heading, .contact-description {
+    background-color: rgb(163, 233, 122);
+}
+
+.contact-heading {
+    font-size: 30px;
+    margin-left: 80px ;
+    margin-top: 500px;
+    margin-bottom: 32px;
+    font-style: bold;
+    font-family: 'Stint Ultra Condensed', cursive;
+    color: blue;
+    box-shadow: yellow;
+}
+
+.contact-description {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 90px;
+    padding-bottom: 50px;
+}
+
+#help-yourself-looking-after-yourself img {
+    width: 35%;
+    height: 380px;
+    border-radius: 5%;
+    margin-left: 15%;
+    float: left;    
+}
+
+#help-yourself-specific-disorders, #help-yourself-specific-disorders .main-header, #help-yourself-resources, #help-yourself-resources .main-header {
+    padding-top: 80px;
+    background-color: #E5EBED;
+}
+
+#help-yourself-specific-disorders {
+    padding-bottom: 248px;
+}
+
+#help-yourself-specific-disorders .main-header, #help-yourself-resources .main-header { 
+     color:blue;
+     font-weight: 600;
+     font-family: 'Bebas Neue', cursive;
+     padding-bottom: 0px;
+ }
+
+.specific-disorder-header, .specific-disorder-tip {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 10%;
+    font-weight: 500;
+}
+
+.specific-disorder-header {
+    color: rgb(61, 204, 61);
+    font-size: 32px;
+    font-family: 'Stint Ultra Condensed', cursive;
+    padding-top: 124px;
+    padding-bottom: 32px;
+}
+
+.specific-disorder-tip {
+    color: #000000;
+    font-size: 20px;
+    padding-bottom: 24px;
+}
+
+
+#help-yourself-resources {
+    padding-bottom: 96px;
+}
+
+.help-yourself-resources-title {
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 600;
+    color: #000000;
+    padding-top: 62px;
+}
+
+.help-yourself-resources-videos {
+    margin-top: -32px;
+    padding-bottom: 96px;
+}
+
+.help-yourself-resources-videos iframe, .help-yourself-resources-articles iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 2%;
+    margin-top: 96px;
+}
+
+.help-yourself-resources-videos iframe {
+    width: 67%;
+    height: 480px;
+    border: none;
+}
+
+.help-yourself-resources-articles {
+    margin-bottom: 62px;
+}
+
+.help-yourself-resources-articles iframe {
+    width: 85%;
+    height: 500px;
+    border: 2px solid #3f3d3df8;
+}
+
+.help-yourself-resources-links {
+    padding-top: 62px;
+}
+
+.help-yourself-resources-links a {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    color: #49A4D5;
+    padding-bottom: 62px;
+    text-align: center;
+}
+
+.help-yourself-resources-links a:hover {
+    text-decoration: none;
+    color: #49A4D5;
+}
+
+.help-yourself-resources-links .fa-angle-right {
+    color: #49A4D5; 
+}
+
+/* Extra small devices (phones) */
+@media only screen and (max-width:717px) {
+    #help-yourself-title div {
+        font-size: 32px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    #help-yourself-looking-after-yourself {
+        padding-bottom: 62px;
+    }
+    .main-header {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .looking-after-tip {
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+    .looking-after-description {
+        font-size: 16px;
+        padding-bottom: 62px;
+    }
+    #help-yourself-looking-after-yourself img {
+        margin-bottom: 62px;
+    }
+    #help-yourself-specific-disorders, #help-yourself-specific-disorders .main-header, #help-yourself-resources .main-header {
+        padding-top: 62px;
+    }
+    #help-yourself-specific-disorders {
+        padding-bottom: 62px;
+    }
+    .specific-disorder-header, .specific-disorder-tip {
+        width: 50%;
+    }
+    .specific-disorder-header {
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 18px;
+    }
+    .specific-disorder-tip {
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+    
+    #help-yourself-resources {
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+    .help-yourself-resources-title {
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .help-yourself-resources-videos {
+        padding-bottom: 0px;
+    }
+    .help-yourself-resources-videos iframe {
+        margin-top: 30px;
+        height: 200px;
+    }
+
+    .help-yourself-resources-articles iframe {
+        display: none; 
+    }
+    .help-yourself-resources-links {
+        padding-bottom: 30px;
+    }
+    .help-yourself-resources-links a {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+}
+
+/* Small devices (Tablets and landscape phones) */
+@media only screen and (min-width:718px) and (max-width:992px) {
+    #help-yourself-title div {
+        font-size: 45px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    #help-yourself-looking-after-yourself {
+        padding-bottom: 45px;
+    }
+    .main-header {
+        font-size: 30px;
+        padding-bottom: 45px;
+    }
+    .looking-after-tip {
+        font-size: 26px;
+        padding-bottom: 26px;
+    }
+    .looking-after-description {
+        font-size: 20px;
+        padding-bottom: 45px;
+    }
+    #help-yourself-looking-after-yourself img {
+        margin-bottom: 90px;
+    }
+    #help-yourself-specific-disorders {
+        padding-top: 45px;
+    }
+    #help-yourself-specific-disorders .main-header, #help-yourself-resources .main-header {
+        padding-top: 45px;
+    }
+    #help-yourself-specific-disorders {
+        padding-bottom: 90px;
+    }
+    .specific-disorder-header, .specific-disorder-tip {
+        width: 50%;
+    }
+    .specific-disorder-header {
+        font-size: 26px;
+        padding-bottom: 26px;
+        padding-top: 45px;
+    }
+    .specific-disorder-tip {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #help-yourself-resources {
+        padding-bottom: 30px;
+        padding-top: 45px;
+    }
+    .help-yourself-resources-title {
+        font-size: 26px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .help-yourself-resources-videos {
+        padding-bottom: 0px;
+    }
+    .help-yourself-resources-videos iframe {
+        margin-top: 45px;
+        height: 400px;
+    }
+    
+    .help-yourself-resources-articles iframe {
+        display: none; 
+    }
+    .help-yourself-resources-links {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .help-yourself-resources-links a {
+        font-size: 20px;
+        padding-bottom: 45px;
+    }
+}
+
+/* Medium devices (Large tablets and small laptops) */
+@media only screen and (min-width:993px) and (max-width:1310px) {
+    #help-yourself-title div {
+        padding-bottom: 62px;
+    }
+    #help-yourself-looking-after-yourself {
+        padding-bottom: 62px;
+    }
+    #help-yourself-specific-disorders {
+        padding-top: 0px;
+        padding-bottom: 124px;
+    }
+    
+    #help-yourself-resources {
+        padding-bottom: 62px;
+    }
+    #help-yourself-resources .main-header {
+        padding-top: 0px;
+    }
+    .help-yourself-resources-title {
+        padding-top: 32px;
+    }
+    .help-yourself-resources-videos {
+        padding-bottom: 0px;
+    }
+    
+    .help-yourself-resources-articles iframe {
+        display: none; 
+    }
+}
+
+/* Large devices (Large desktops and laptops) */
+@media only screen and (min-width: 1824px) {
+    #help-yourself-title div, .main-header {
+        width: 50%;
+    }
+    #help-yourself-title div {
+        padding-bottom: 62px;
+    }
+    
+    .looking-after-description, #help-yourself-looking-after-yourself img {
+        width: 40%;
+    }
+    #help-yourself-looking-after-yourself {
+        padding-bottom: 62px;
+    }
+    #help-yourself-specific-disorders, #help-yourself-specific-disorders .main-header, #help-yourself-resources, #help-yourself-resources .main-header {
+        padding-top: 62px;
+    }
+    #help-yourself-specific-disorders {
+        padding-bottom: 124px;
+    }
+    .specific-disorder-header, .specific-disorder-tip {
+        width: 25%;
+    }
+    
+    .help-yourself-resources-videos iframe {
+        height: 750px;
+        width: 65%;
+    }
+    .help-yourself-resources-articles iframe {
+        height: 1250px;
+        width: 70%;
+    }
+    .help-yourself-resources-links a {
+        width: 35%;
+    }
+}
+
+
+/* Styling for help_others.html */
+
+.help-others-title {
+    background-image: url("https://cdn.wallpapersafari.com/88/76/g4wGuk.jpg");
+    margin-bottom: 100px;
+}
+
+.help-others-title div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 62px;
+    padding-top: 62px;
+    padding-bottom: 100px;
+    width: 75%;
+    color: white;
+}
+
+.help-others-acquaintance-struggling {
+    margin-bottom: 0px;
+}
+
+.help-others-row-one, .help-others-row-two, .help-others-row-three, .help-others-row-four {
+    height: 800px;
+}
+
+.help-others-portion-left {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.help-others-portion-right {
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.portion-img {
+    overflow: hidden;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.portion-img img {
+    width: 40%;
+}
+
+.portion-heading {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Stint Ultra Condensed', cursive;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    height: 150px;
+}
+
+.portion-body {
+    font-size: 24px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    overflow: hidden; 
+}
+
+.help-others-big-image {
+    margin-bottom: 124px;
+}
+
+.help-others-big-image img {
+    width: 85%;
+    height: auto;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.help-others-tips {
+    margin-bottom: 62px;   
+}
+
+.bullets {
+    margin-left: 0px;
+    text-align: left;
+    padding-left: 0px;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+   font-size: 70%;
+
+}
+
+.help-others-tips div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Stint Ultra Condensed', cursive;
+    padding-bottom: 80px;
+}
+
+.help-others-tips div ul li {
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.help-others-tips a, .help-others-tips a:hover {
+    color: rgb(61, 204, 61);
+    text-decoration: none;
+}
+
+/* Extra small devices (phones) */
+@media only screen and (max-width:717px) {
+    .help-others-title {
+        font-size: 32px;
+        margin-top: 32px;
+        margin-bottom: 62px;
+    }
+    .help-others-row-one, .help-others-row-two, .help-others-row-three, .help-others-row-four {
+        height: auto;
+    }
+    .help-others-portion-left, .help-others-portion-right {
+        float: none;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 62px;
+    }
+    .portion-img {
+        height: auto;
+        text-align: center;
+    }
+    .portion-img img {
+        width: 90%;
+    }
+    .portion-heading {
+        font-size: 18px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+    .portion-body {
+        font-size: 16px;
+        height: auto;
+    }
+    .help-others-big-image {
+        margin-bottom: 62px;
+    }
+    .help-others-big-image img {
+        width: 100%;
+        border-radius: 0%;
+    }
+    .help-others-tips {
+        margin-bottom: 32px;
+    }
+    .help-others-tips div {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+}
+
+/* Small devices (Tablets and landscape phones) */
+@media only screen and (min-width:718px) and (max-width:992px) {
+    .help-others-title {
+        font-size: 45px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .help-others-acquaintance-struggling {
+        margin-bottom: 600px;
+    }
+    .help-others-row-one, .help-others-row-two, .help-others-row-three, .help-others-row-four {
+        height: 500px;
+    }
+    .help-others-portion-left, .help-others-portion-right {
+        margin-bottom: 18px;
+    }
+    .portion-img {
+        height: 225px; 
+    }
+    .portion-heading {
+        font-size: 26px;
+        padding-top: 12px;
+        padding-bottom: 26px;
+    }
+    .portion-body {
+        font-size: 20px;
+        height: 275px;
+    }
+    .help-others-big-image {
+        margin-top: 45px;
+        margin-bottom: 90px;
+    }
+    .help-others-tips {
+        margin-bottom: 45px;
+    }
+    .help-others-tips div {
+        font-size: 30px;
+        padding-bottom: 60px;
+        width: 67%;
+    }
+}
+
+/* Large devices (Large desktops and laptops) */
+@media only screen and (min-width: 1824px) {
+    .help-others-title div {
+        width: 60%;
+    }
+    .help-others-acquaintance-struggling {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .help-others-big-image {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .help-others-tips {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Styling for mental_health_awareness.html */ 
+
+#mental-health-awareness-title {
+    background-image: url("https://cdn.wallpapersafari.com/88/76/g4wGuk.jpg");
+}
+
+#mental-health-awareness-title div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 62px;
+    padding-top: 62px;
+    padding-bottom: 100px;
+    width: 75%;
+    color: white;
+}
+
+.create-awareness-title {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    word-spacing: 2px;
+    font-weight: 600;
+    margin-top: 62px;
+    margin-bottom: 30px;
+}
+
+.create-awareness-title div {
+    width: 85%;
+    padding-bottom: 90px;
+    font-family: 'Stint Ultra Condensed', cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.create-awareness-title div span {
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 28px;
+    color: blueviolet;
+}
+
+.create-awareness-hospital-image {
+    background-color: #E5EBED;
+}
+
+.create-awareness-hospital-image img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.talking-mental-health-reasons {
+    background-color: #E5EBED;
+    text-align: center;
+    padding-bottom: 62px;
+}
+
+.talking-heading, .stigma-heading {
+    color: blue;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Stint Ultra Condensed', cursive;
+    width: 70%;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.talking-point {
+    color: rgb(79, 10, 189);
+    font-size: 32px;
+    font-weight: 600;
+    width: 50%;
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.talking-description {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    width: 50%;
+    padding-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ways-to-fight-stigma {
+    background-color: rgb(61, 204, 61);
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+
+.stigma-tip {
+    font-size: 35px;
+    font-weight: 300;
+    width: 90%;
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tip-white {
+    color: #ffffff;
+    text-align: left;
+    font-size: 25px;
+}
+
+
+.world-mental-health-day {
+    padding-top: 60px;
+    width: 90%;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.world-mental-health-day-heading {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    width: 90%;
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(61, 204, 61);
+}
+
+.world-mental-health-day-body {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Stint Ultra Condensed', cursive;
+    width: 87%;
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.suicide-prevention {
+    padding-top: 62px;
+    padding-bottom: 124px;
+    background-color: #302d2df8;
+}
+
+.suicide-week-heading {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Stint Ultra Condensed', cursive;
+    text-align: center;
+    color: rgb(61, 204, 61);
+    width: 70%;
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.suicide-week-body {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 80%;
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop {
+    background-color:rgb(61, 204, 61);
+    padding-top: 124px;
+    padding-bottom: 62px;
+    margin-bottom: 20px;
+}
+
+.shop-heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: blue;
+    width: 80%;
+    padding-bottom: 62px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop-heading a u, .shop-text a u {
+    color:blue;
+    font-size: 32px;
+}
+
+.shop-text {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Stint Ultra Condensed', cursive;
+    color: #ffffff;
+    width: 90%;
+    padding-bottom: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop-heading a u:hover, .shop-text a u:hover {
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.image-row {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.image-row a img {
+    width: 40%;
+    margin-left: 80px;
+    height: 500px;
+}
+
+/* Extra small devices (phones) */
+@media only screen and (max-width:717px) {
+    .create-awareness-title {
+        font-size: 32px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .create-awareness-title div {
+        padding-bottom: 32px;
+    }
+    
+    .talking-mental-health-reasons {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .talking-heading, .stigma-heading {
+        font-size: 20px;
+        padding-top: 32px;
+    }
+    .talking-point {
+        font-size: 18px;
+        padding-top: 32px;
+    }
+    .talking-description {
+        font-size: 16px;
+        padding-top: 18px;
+        width: 80%;
+    }
+    .ways-to-fight-stigma {
+        padding-top: 32px;
+        padding-bottom: 62px;
+    }
+    .stigma-tip {
+        font-size: 20px;
+        padding-top: 32px;
+        width: 75%;
+    }
+    .world-mental-health-day {
+        padding-top: 0px;
+        padding-bottom: 32px;
+        margin-bottom: 32px;
+    }
+    .world-mental-health-day-heading {
+        font-size: 20px;
+        padding-top: 32px;
+        width: 80%;
+    }
+    .world-mental-health-day-body {
+        font-size: 16px;
+        padding-top: 32px;
+        width: 75%;
+    }
+    .suicide-prevention {
+        padding-top: 0px;
+        padding-bottom: 62px;
+    }
+    .suicide-week-heading {
+        font-size: 20px;
+        padding-top: 32px;
+        width: 80%;
+    }
+    .suicide-week-body {
+        font-size: 16px;
+        padding-top: 32px;
+        width: 75%;
+    }
+    .shop {
+        padding-top: 32px;
+        padding-bottom: 0px;
+    }
+    .shop-heading {
+        font-size: 18px;
+        padding-bottom: 32px;
+    }
+    .shop-text {
+        font-size: 16px;
+        padding-bottom: 32px;
+    }
+    .shop-text a, .shop-text a:hover {
+        font-size: 18px;
+    }
+    .image-row a img {
+        width: 100%;
+    }
+}
+
+/* Small devices (Tablets and landscape phones) */
+@media only screen and (min-width:718px) and (max-width:992px) {
+    .create-awareness-title {
+        font-size: 45px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .create-awareness-title div {
+        padding-bottom: 45px;
+    }
+    .talking-mental-health-reasons {
+        padding-bottom: 45px;
+    }
+    .talking-heading, .stigma-heading {
+        font-size: 30px;
+        padding-top: 45px;
+    }
+    .talking-point {
+        font-size: 26px;
+        padding-top: 45px;
+    }
+    .talking-description {
+        font-size: 20px;
+        padding-top: 26px;
+        width: 60%;
+    }
+    .ways-to-fight-stigma {
+        padding-bottom: 90px;
+    }
+    .stigma-tip {
+        font-size: 30px;
+        padding-top: 45px;
+    }
+    .world-mental-health-day {
+        padding-top: 0px;
+        padding-bottom: 45px;
+        margin-bottom: 45px;
+    }
+    .world-mental-health-day-heading {
+        font-size: 30px;
+        padding-top: 45px;
+    }
+    .world-mental-health-day-body {
+        font-size: 20px;
+        padding-top: 45px;
+    }
+    .suicide-prevention {
+        padding-top: 0px;
+        padding-bottom: 45px;
+    }
+    .suicide-week-heading {
+        font-size: 30px;
+        padding-top: 45px;
+    }
+    .suicide-week-body {
+        font-size: 20px;
+        padding-top: 45px;
+    }
+    .shop {
+        padding-top: 45px;
+        padding-bottom: 0px;
+    }
+    .shop-heading {
+        font-size: 26px;
+        padding-bottom: 45px;
+    }
+    .shop-text {
+        font-size: 20px;
+        padding-bottom: 45px;
+    }
+    .shop-text a, .shop-text a:hover {
+        font-size: 26px;
+    }
+}
+
+/* Large devices (Large desktops and laptops) */
+@media only screen and (min-width: 1824px) {
+    .create-awareness-title div, .talking-heading, .stigma-heading, .suicide-week-heading {
+        width: 60%;
+    }
+    .talking-point, .talking-description, .world-mental-health-day-heading {
+        width: 40%;
+    } 
+    .stigma-tip, .shop-heading {
+        width: 50%;
+    }
+    .world-mental-health-day-body, .suicide-week-body, .shop-text {
+        width: 30%;
+    }
+    .image-row {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Sign In page + Sign Up page */
+
+.sign-in-page, .sign-up-page {
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+
+.sign-in, .sign-up {
+    text-align: center;
+    width: 50%;
+    padding-bottom: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+}
+
+.sign-in-logo, .sign-up-logo {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.sign-in-logo img, .sign-up-logo img {
+    height: 80px;
+    width: 80px;
+}
+
+.sign-in-form, .sign-up-form {
+    padding-bottom: 40px;
+}
+
+.sign-in-form label, .sign-up-form label {
+    display: none;
+}
+
+.sign-in-form input[type=password], .sign-in-form input[type=email], .sign-up-form input[type=text], 
+.sign-up-form input[type=password], .sign-up-form input[type=email] {
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    width: 75%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.sign-in-form input[type=submit], .sign-up-form input[type=submit] {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: rgb(61, 204, 61);
+    width: 35%;
+    padding: 16px 10px;
+}
+
+.sign-in-form input[type=submit] {
+    margin-top: 10px;
+}
+
+.sign-up-form input[type=submit] {
+    margin-top: 30px;
+}
+
+.sign-in-form input[type=submit]:hover, .sign-up-form input[type=submit]:hover {
+    background-color: rgb(79, 10, 189);
+}
+
+.sign-in-redirect, .sign-up-redirect, .sign-up-tos {
+    font-size: 17px;
+}
+
+.sign-up-tos {
+    margin-bottom: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign-up-tos span {
+    font-weight: 600;
+}
+
+.sign-in-redirect a, .sign-in-redirect a:hover, .sign-up-redirect a, .sign-up-redirect a:hover {
+    margin-left: 10px;
+    color: rgb(79, 10, 189);
+    text-decoration: none;
+}
+
+.sign-in-redirect .fa-angle-right, .sign-up-redirect .fa-angle-right {
+    margin-left: 5px; 
+}
+
+/* Extra small devices (phones) */
+@media only screen and (max-width:717px) {
+    .sign-in-page, .sign-up-page {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .sign-in, .sign-up {
+        width: 90%;
+        padding-bottom: 32px;
+    }
+    .sign-in-form input[type=password], .sign-in-form input[type=email], .sign-up-form input[type=text], 
+    .sign-up-form input[type=password], .sign-up-form input[type=email] {
+        font-size: 14px;
+        width: 90%;
+    }
+    .sign-in-form input[type=submit], .sign-up-form input[type=submit] {
+        font-size: 14px;
+        width: 40%;
+        margin-top: 20px;
+    }
+    .sign-in-redirect, .sign-up-redirect, .sign-up-tos {
+        font-size: 15px;
+    }
+}
+
+/* Small devices (Tablets and landscape phones) */
+@media only screen and (min-width:718px) and (max-width:992px) {
+    .sign-in-page { 
+        margin-top: 135px;
+        margin-bottom: 135px;
+    }
+    .sign-up-page {
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .sign-in, .sign-up {
+        width: 60%;
+        padding-bottom: 45px;
+    }
+    .sign-in-form input[type=password], .sign-in-form input[type=email], .sign-up-form input[type=text], 
+    .sign-up-form input[type=password], .sign-up-form input[type=email] {
+        font-size: 14px;
+    }
+    .sign-in-form input[type=submit], .sign-up-form input[type=submit] {
+        font-size: 14px;
+        margin-top: 24px;
+    }
+    .sign-in-redirect, .sign-up-redirect, .sign-up-tos {
+        font-size: 16px;
+    }
+    .sign-in-redirect .fa-angle-right, .sign-up-redirect .fa-angle-right {
+        margin-left: 5px; 
+    }
+}
+
+/* Large devices (Large desktops and laptops) */
+@media only screen and (min-width: 1824px) {
+    .sign-in-page, .sign-up-page {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media only screen and (min-height:940px) {
+    .sign-in-page {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    .sign-up-page {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-height:1110px) {
+    .sign-in-page {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    .sign-up-page {
+        margin-top: 125px;
+        margin-bottom: 125px;
+    }
+}
+
+@media only screen and (min-height:1230px) {
+    .sign-in-page {
+        margin-top: 300px;
+        margin-bottom: 300px;
+    }
+    .sign-up-page {
+        margin-top: 180px;
+        margin-bottom: 180px;
+    }
+}
+
+@media only screen and (min-height:1430px) {
+    .sign-in-page {
+        margin-top: 400px;
+        margin-bottom: 400px;
+    }
+    .sign-up-page {
+        margin-top: 240px;
+        margin-bottom: 240px;
+    }
+}
+
+@media only screen and (min-height:1570px) {
+    .sign-in-page {
+        margin-top: 500px;
+        margin-bottom: 500px;
+    }
+    .sign-up-page {
+        margin-top: 300px;
+        margin-bottom: 300px;
+    }
+}
+
+@media only screen and (min-height:1760px) {
+    .sign-in-page {
+        margin-top: 600px;
+        margin-bottom: 600px;
+    }
+    .sign-up-page {
+        margin-top: 480px;
+        margin-bottom: 480px;
+    }
+}
+
+@media only screen and (min-height:2030px) {
+    .sign-in-page {
+        margin-top: 800px;
+        margin-bottom: 800px;
+    }
+    .sign-up-page {
+        margin-top: 640px;
+        margin-bottom: 640px;
+    }
+}
+
+@media only screen and (min-height:2430px) {
+    .sign-in-page {
+        margin-top: 1000px;
+        margin-bottom: 1000px;
+    }
+    .sign-up-page {
+        margin-top: 850px;
+        margin-bottom: 850px;
+    }
+}
+
+@media only screen and (min-height:2850px) {
+    .sign-in-page {
+        margin-top: 1400px;
+        margin-bottom: 1400px;
+    }
+    .sign-up-page {
+        margin-top: 1200px;
+        margin-bottom: 1200px;
+    }
+}
